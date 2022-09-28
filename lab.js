@@ -55,7 +55,19 @@ let rain = true;
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
-//CODE HERE
+if (temperature > 80 && rain === true){
+  console.log("You should wear a t-shirt and bring an umbrella.")
+} else if (temperature > 60 && temperature < 80 && rain === true){
+  console.log("You should wear a rain jacket.") 
+} else if(temperature < 60 && rain === true){
+  console.log("You should wear a jacket and carry an umbrella.")
+} else if (temperature > 80 && rain === false){
+  console.log("You should wear a t-shirt.")
+} else if (temperature > 60 && temperature < 80 && rain === false){
+  console.log("You should wear a cardigan.") 
+} else if(temperature < 60 && rain === false){
+  console.log("You should wear a jacket.")
+}
 
 ////////// PROBLEM 5 //////////
 
