@@ -75,7 +75,9 @@ if (temperature > 80 && rain === true){
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
-//CODE HERE
+for(let i = 0; i < 10; i++){
+  console.log("hello")
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -83,7 +85,8 @@ if (temperature > 80 && rain === true){
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-//CODE HERE
+for(let i = 1; i < 11; i++){
+  console.log(i)};
 
 ////////// PROBLEM 7 //////////
 
@@ -91,7 +94,8 @@ if (temperature > 80 && rain === true){
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
-//CODE HERE
+for(let i = 10; i >= 0; i--){
+  console.log(i)};
 
 
 ////////// PROBLEM 8 //////////
